@@ -120,7 +120,7 @@ public class Main {
 
         System.out.println("Если в компании работает " + numbersEmployee + " человек, то всего " + allWorkingHourse + " часов работы может быть поделено между сотрудниками.");
         numbersEmployee = numbersEmployee + 94;
-        allWorkingHourse = numbersEmployee * 8;
+        allWorkingHourse = numbersEmployee * jobHourseEmployee;
         System.out.println("Если в компании работает " + numbersEmployee + " человек, то всего " + allWorkingHourse + " часов работы может быть поделено между сотрудниками.");
 
     }
